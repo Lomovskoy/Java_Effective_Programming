@@ -2,6 +2,10 @@ package effective.programming.examples.chapter_2;
 
 /**
  * sumSlow медленнее sumFast в 7,6 раз.
+ * <br>
+ * предпочитайте прими
+ * тивы упакованным примитивам и следите за непреднамеренной автома
+ * тической упаковкой.
  */
 public class Sum {
 
