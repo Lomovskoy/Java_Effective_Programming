@@ -1,4 +1,4 @@
-package java.effective.programming.examples.chapter_2;
+package effective.programming.examples.chapter_2;
 
 import java.util.GregorianCalendar;
 import java.util.List;

@@ -1,4 +1,4 @@
-package java.effective.programming.examples.chapter_2.pizza;
+package effective.programming.examples.chapter_2.pizza;
 
 import java.util.EnumSet;
 import java.util.Objects;

@@ -1,4 +1,4 @@
-package java.effective.programming.examples.chapter_2;
+package effective.programming.examples.chapter_2;
 
 /**
  * Получайте синглтон с помощью закрытого

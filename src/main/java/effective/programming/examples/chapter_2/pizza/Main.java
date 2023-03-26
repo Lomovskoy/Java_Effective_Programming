@@ -1,7 +1,7 @@
-package java.effective.programming.examples.chapter_2.pizza;
+package effective.programming.examples.chapter_2.pizza;
 
-import static java.effective.programming.examples.chapter_2.pizza.NyPizza.Size.*;
-import static java.effective.programming.examples.chapter_2.pizza.Pizza.Topping.*;
+import static effective.programming.examples.chapter_2.pizza.NyPizza.Size.*;
+import static effective.programming.examples.chapter_2.pizza.Pizza.Topping.*;
 
 /**
  * Шаблон проектирования Строитель является хорошим выбором

@@ -1,8 +1,12 @@
-package java.effective.programming.examples.chapter_2;
+package effective.programming.examples.chapter_2;
 
+/**
+ * sumSlow медленнее sumFast в 7,6 раз.
+ */
 public class Sum {
 
     // Ужасно медленно! Вы можете найти создание объекта?
+    // Время выполнения 5159ms
     public static long sumSlow() {
         Long sum = 0L;
         for (long i = 0; i <= Integer.MAX_VALUE; i++)
@@ -10,6 +14,7 @@ public class Sum {
         return sum;
     }
 
+    // Время выполнения 678ms
     public static long sumFast() {
         long sum = 0L;
         for (long i = 0; i <= Integer.MAX_VALUE; i++)

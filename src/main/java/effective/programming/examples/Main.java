@@ -1,6 +1,6 @@
-package java.effective.programming.examples;
+package effective.programming.examples;
 
-import java.effective.programming.examples.chapter_2.Sum;
+import effective.programming.examples.chapter_2.Sum;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,8 +11,8 @@ public class Main {
         System.out.println("time sumSlow: " + (System.currentTimeMillis() - time));
 
         time = System.currentTimeMillis();
-        System.out.println(Sum.sumSlow());
+        System.out.println(Sum.sumFast());
 
-        System.out.println("time sumSlow: " + (System.currentTimeMillis() - time));
+        System.out.println("time sumFast: " + (System.currentTimeMillis() - time));
     }
 }
