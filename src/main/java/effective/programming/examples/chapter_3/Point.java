@@ -17,7 +17,6 @@ public class Point {
         return p.x == x && p.y == y;
     }
 
-
     // Нарушение принципа подстановки Лисков
 //    @Override
 //    public boolean equals(Object o) {
